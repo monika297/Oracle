@@ -1,0 +1,26 @@
+(a) How many commits have been done to the repository? - Eight(8), two of them are by me and six was done previously
+(b) When was the file .gitignore modified last? - Thu Aug 20 18:05:41 2015 -0400
+(c) List the files, which were in the repository on 08/21/2015 at 11:00PM.
+-  .classpath
+-  .gitattributes
+-  .gitignore
+-  .project
+-  src/controller/HardwoodSeller.java
+-  src/model/WoodItem.java
+
+(d) How many times was each of the files inside the src folder modified? - One Time (WoodItem.java inside src folder is modified once on Mon Aug 24 12:07:05 2015 -0400)
+
+
+(e) What is the difference between git log and git status? 
+	git log shows the commit logs and git status shows the working tree status
+
+(f) What command would you use to see the commits where “main.java” was
+one of the commited files?
+Suppose here that main.java is at "D:/Repository/Oracle/src" path. So, the command will be used as follows:
+git log -- D:/Repository/Oracle/src
+ 
+(g) What command would you use to see the commits whose commit message
+contains the word “transaction”? git log --grep=transaction
+
+(h) What command would you use to see the commits made by “Lauren” between
+01/05/2014 and 06/14/2015? (5 points) git log --author=Lauren --before={2015-06-14} --after={2014-01-05}
