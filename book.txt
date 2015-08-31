@@ -1,0 +1,11 @@
+A book is a written or printed sheet of pages of information. The information may be related to various subject and topics. The internet world has also introduced electronic form of books known as e-books.
+The output for git status is :
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   book.txt
+
+
